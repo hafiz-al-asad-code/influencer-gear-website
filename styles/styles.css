@@ -11,142 +11,161 @@
 }
 
 /* shared styles */
-.container{
-  max-width:1110px;
-  margin:0 auto;
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
 }
-.display-flex{
-  display:flex;
+.display-flex {
+  display: flex;
 }
-.font-24{
-  font-size:1.5rem;
+.font-24 {
+  font-size: 1.5rem;
   font-weight: bold;
-  color:#3A3A3A;
+  color: #3a3a3a;
 }
-.font-16{
-  font-size:1rem;
+.font-16 {
+  font-size: 1rem;
   font-weight: 600;
-  color:#3A3A3A;
+  color: #3a3a3a;
 }
 
-.btn-primary{
+.btn-primary {
   font-weight: 700;
-  padding:10px 24px;
-  border-radius:41px;
-  color:rgb(255, 255, 255);
-  background-color:rgb(224, 44, 109);
-  border:none;
+  padding: 10px 24px;
+  border-radius: 41px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(224, 44, 109);
+  border: none;
 }
-.fa-solid{
-  margin-left:12px;
+.fa-solid {
+  margin-left: 12px;
 }
 
 /* nav styles */
-.nav{
+.nav {
   align-items: center;
   justify-content: space-between;
-  margin-top:87px;
-  margin-left:120px;
-  margin-right:120px;
+  margin-top: 87px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
-.nav ul{
-  list-style:none;
-  gap:34px;
-  margin-top:0;
-  margin-bottom:0;
-}
-
-.nav a{
-  text-decoration: none;
-  color:#3A3A3A;
-}
-.header-title{
-  margin-top:0;
-  margin-bottom:0;
-}
-
-
-/* banner styles */
-.banner{
-  justify-content: space-between;
-  gap:133px;
-  align-items: center;
-  margin-top:50px;
-  margin-left:120px;
-  margin-right:132px;
-  background-image: url('../images/Circle\ design.svg');
-  background-repeat:no-repeat;
-  background-position:right;
-  height:480px;
-}
-.banner-title{
-  font-size:3.25rem;
-  font-weight:bold;
-  color:rgba(58, 58, 58, 1.00);
+.nav ul {
+  list-style: none;
+  gap: 34px;
+  margin-top: 0;
   margin-bottom: 0;
 }
-.banner-subtitle{
-  font-weight: 600px;
-  color:rgba(58, 58, 58, 1.00);
-  margin-top:16px;
-  margin-bottom:16px;
+
+.nav a {
+  text-decoration: none;
+  color: #3a3a3a;
 }
-.banner-contents{
+.header-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* banner styles */
+.banner {
+  justify-content: space-between;
+  gap: 133px;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 132px;
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 480px;
+}
+.banner-title {
+  font-size: 3.25rem;
+  font-weight: bold;
+  color: rgba(58, 58, 58, 1);
+  margin-bottom: 0;
+}
+.banner-subtitle {
+  font-weight: 600px;
+  color: rgba(58, 58, 58, 1);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.banner-contents {
   max-width: 582px;
 }
 
 /* websites link styles */
-.websites-link{
-  gap:61px;
-  margin-top:69px;
-  margin-bottom:100px;
+.websites-link {
+  gap: 61px;
+  margin-top: 69px;
+  margin-bottom: 100px;
+}
+.websites-link img {
+  max-width: 100%;
 }
 
 /* responsive media query */
+
 /* for mobile */
-@media screen and (max-width:576px){
-  .nav{
+@media screen and (max-width: 576px) {
+  /* nav */
+  .nav {
     flex-direction: column;
   }
-  .nav{
-    margin-top:30px;
-    margin-left:10px;
-    margin-right:10px;
+  .nav {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
-  .nav-items{
+  .nav-items {
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
-    padding:0;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
   }
-  .nav ul li:nth-child(5){
+  .nav ul li:nth-child(5) {
     grid-column-start: 2;
   }
-  .nav ul{
-    row-gap:20px;
+  .nav ul {
+    row-gap: 20px;
   }
-  .header-title{
-    margin-bottom:20px;
+  .header-title {
+    margin-bottom: 20px;
   }
-  .banner{
-  flex-direction:column-reverse;
-  height:auto;
-  background-size:257px 257px;
-  background-position: top;
-  margin-top:22px;
-  margin-left:10px;
-  margin-right:10px;
-  gap:14px;
-  text-align: center;
+  /* banner */
+  .banner {
+    flex-direction: column-reverse;
+    height: auto;
+    background-size: 257px 257px;
+    background-position: top;
+    margin-top: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 14px;
+    text-align: center;
   }
-  .banner-title{
+  .banner-title {
     font-size: 1.75rem;
   }
-  .banner-subtitle{
-    font-size:0.875rem;
-    font-weight:500;
+  .banner-subtitle {
+    font-size: 0.875rem;
+    font-weight: 500;
   }
-  .banner-image img{
-    width:202px;
-    height:190px;
+  .banner-image img {
+    width: 202px;
+    height: 190px;
+  }
+
+  /* website links */
+  .websites-link {
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width:275px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    column-gap: 32px;
+    row-gap: 25px;
+  }
+  .websites-link img {
+    max-width: 18%;
   }
 }
