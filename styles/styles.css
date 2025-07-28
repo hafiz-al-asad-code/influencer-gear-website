@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* font styles */
 .poppins-font {
   font-family: "Poppins", sans-serif;
@@ -102,6 +108,72 @@
 }
 .websites-link img {
   max-width: 100%;
+}
+
+/* popular collection styles */
+.star {
+  display: flex;
+  align-items: center;
+}
+.popular-collection-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+  margin-bottom: 47px;
+  text-align: center;
+}
+.card-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: #18191f;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.product-price {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.product-ratings {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(94, 99, 102);
+}
+.card-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(120, 120, 133);
+  max-width: 205px;
+  margin-top: 15px;
+}
+.star span {
+  margin-left: 10px;
+}
+.collection-card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 17px 15px 27px 14px;
+  border-radius: 5px;
+}
+.popular-collection-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.collection-card .main-image {
+  width: 100%;
+}
+.see-more {
+  margin-top: 50px;
+  text-align: end;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(224, 44, 109, 0.87);
+}
+.popular-collection {
+  margin-bottom: 100px;
 }
 
 /* responsive media query */
