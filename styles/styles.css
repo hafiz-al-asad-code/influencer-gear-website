@@ -176,6 +176,30 @@
   margin-bottom: 100px;
 }
 
+/* featured products styles */
+.featured-products {
+  display: flex;
+  gap: 96px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.featured-products-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: rgb(10, 8, 38);
+  margin-bottom: 16px;
+}
+.featured-products-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(108, 108, 108);
+  margin-bottom: 16px;
+  max-width: 501px;
+}
+.join-btn {
+  border-radius: 0;
+}
+
 /* responsive media query */
 
 /* for mobile */
