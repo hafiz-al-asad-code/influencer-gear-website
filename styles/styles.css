@@ -88,8 +88,6 @@
   gap: 133px;
   align-items: center;
   margin-top: 50px;
-  /* margin-left: 120px;
-  margin-right: 132px; */
   background-image: url("../images/Circle\ design.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -240,6 +238,9 @@ footer {
   color: rgb(217, 219, 225);
   margin-bottom: 17px;
 }
+.fa-brands {
+  margin-right: 16px;
+}
 
 /* responsive media query */
 
@@ -265,6 +266,7 @@ footer {
     margin-bottom: 20px;
     font-size: 28px;
   }
+  
   /* banner */
   .banner {
     flex-direction: column-reverse;
@@ -298,7 +300,6 @@ footer {
   .websites-link {
     flex-wrap: wrap;
     justify-content: center;
-    /* max-width:275px; */
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
