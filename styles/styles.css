@@ -36,6 +36,7 @@
 }
 
 .btn-primary {
+  font-size: 16px;
   font-weight: 700;
   padding: 10px 24px;
   border-radius: 41px;
@@ -297,5 +298,37 @@
   .see-more {
     margin-top: 32px;
     margin-right: 16px;
+  }
+  .popular-collection {
+    margin-bottom: 50px;
+  }
+
+  /* featured products */
+  .featured-products {
+    flex-direction: column-reverse;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .featured-products-title {
+    font-size: 24px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+  }
+  .featured-products-subtitle {
+    text-align: center;
+    line-height: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 35px;
+  }
+  .featured-products-button-parent {
+    display: flex;
+    justify-content: center;
+  }
+  .featured-products img {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
