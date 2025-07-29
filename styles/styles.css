@@ -363,4 +363,18 @@ footer {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  /* footer */
+  .footer-title {
+    font-size: 16px;
+  }
+  .footer-subtitle {
+    font-size: 12px;
+  }
+  .footer-subtitle-2 {
+    font-size: 12px;
+  }
+  footer img {
+    width: 130px;
+  }
 }
